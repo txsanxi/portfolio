@@ -1,0 +1,115 @@
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/0eedbf5b43.js">
+  <title>自己紹介</title>
+</head>
+<body>
+  <div class="header">
+    <div class="header-logo">Header</div>
+    <div class="header-list">
+      <nav>
+        <ul>
+          <li><a href="#top">自己紹介</a></li>
+          <li><a href="#lesson">スキル</a></li>
+          <li><a href="#message">作品</a></li>
+          <li><a href="#footer">連絡方法</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  
+  <section id="top" class="top-wrapper">
+  <h1>自己紹介</h1>
+
+  <div class="intro-block">
+    <img class="intro-img" src="https://i.imgur.com/FWYB1Kt.jpeg" alt="プロフィール1">
+    <p class="intro-text">
+      はじめまして、王相文（オウ ショウブン）と申します。現在、日本で働きながら、IT業界への転職を目指して独学でプログラミングを学習しています。
+    </p>
+  </div>
+
+  <div class="intro-block reverse">
+    <img class="intro-img" src="https://i.imgur.com/gqXOXoh.jpeg" alt="プロフィール2">
+    <div class="intro-text">
+      <p>前職では長時間労働や厳しい環境の中で責任感を持って業務に取り組みました。その経験から、安定した環境で長く活躍できるエンジニアになりたいと強く感じています。</p>
+      <p>経験は浅いですが、熱意と継続力には自信があります。一歩ずつ着実に成長し、チームに貢献できる人材を目指します。</p>
+    </div>
+  </div>
+</section>
+
+  
+  <section id="lesson" class="lesson-wrapper">
+    <h2>スキル</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>HTML</h3>
+        <p>基本的な構造を理解し、レスポンシブなページも作成可能です。
+        </p>
+      </div>
+      <div class="card">
+        <h3>CSS</h3>
+        <p>基本的 CSS を理解しており、レイアウトや文字の装飾、色の指定などを行うことができます。
+        </p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>基本文法を習得し、簡単なインタラクションも実装できます。</p>
+      </div>
+    </div>
+    <div class="timeline-section">
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">2025年4月25日</span>
+          <p>プログラミングの独学を開始（Progateを使用）。</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2025年5月2日</span>
+          <p>HTML/CSSを勉強して終わりました。</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2025年5月11日</span>
+          <p>JavaScriptを勉強して終わりました。</p>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-date">2025年5月18日-21日</span>
+          <p>"自己紹介"デザインしてます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="message" class="message-wrapper">
+    <div class="countdown-container">
+    <div class="container">
+    <h1>カウントダウンタイマー</h1>
+    <input type="datetime-local" id="targetDate">
+    <button onclick="startCountdown()">スタート</button>
+    <div class="countdown" id="countdown">
+      <p>残り時間：</p>
+      <p id="timer">-- 日 -- 時間 -- 分 -- 秒</p>
+    </div>
+    </div>
+    </div>
+    <div class="todo-container">
+     <div class="todo-container">
+      <h1>ToDoリスト</h1>
+      <input type="text" id="todo-input" placeholder="やることを入力">
+      <button onclick="addToDo()">追加</button>
+      <ul id="todo-list"></ul>
+    </div>
+    </div>
+  </section>
+  
+  <section id="footer" class="footer">
+    <h2>お問い合わせ</h2>
+    <p>ご連絡は以下の方法でお願いいたします。</p>
+      <ul>
+        <li>Email:<a href="maildo:tianxiao0704@gmail.com">tianxiao0704@gmail.com</a>
+        </li>
+        <li>GitHub:<a href="https://github.com/txsanxi" target="_blank">https://github.com/txsanxi</a>          
+        </li>
+      </ul>
+  </section>
+  <script src="script.js"></script>
+</body>
