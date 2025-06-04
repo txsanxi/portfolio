@@ -1,0 +1,203 @@
+.header{
+  height:90px;
+  background-color:rgba(34, 49, 52, 0.9);
+  color:white;
+  position:fixed;
+  width:100%;
+  z-index:10;
+  top:0;
+}
+
+.header-logo{
+  font-size:36px;
+  padding:15px;
+  float:left;
+  letter-spacing:10px;
+  font-weight:bold;
+}
+.header-list li{
+  float:left;
+  letter-spacing:3px;
+  list-style:none;
+  padding:15px 33px;
+  font-size:20px;
+}
+nav a{
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:bold;
+  transition: color 0.3s;
+}
+nav a:hover{
+  color:#5284f0;
+}
+.top-wrapper {
+  padding: 150px 5% 100px 5%;
+  background-image: url(https://i.imgur.com/Wn1SI2M.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper h1 {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.6);
+  border-bottom: 2px solid white;
+}
+
+.intro-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.intro-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.intro-img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.intro-text {
+  flex: 1;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .intro-block {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro-text {
+    font-size: 16px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+  }
+}
+.lesson-wrapper{
+  background-color:#f4f4f4;
+  text-align:center;
+  padding:80px 20px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+.timeline-section{
+  padding:80px 20px;
+}.timeline{
+  border-left: 4px solid #5284f0;
+  padding-left: 20px;
+  margin: 40px 0;
+}
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+.timeline-date {
+  font-weight: bold;
+  color: #5284f0;
+}
+.timeline-item::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #5284f0;
+  border-radius: 50%;
+  position: absolute;
+  left: -29px;
+  top: 5px;
+}
+.footer{
+  background-color:rgba(34, 49, 52, 0.9);
+  color:white;
+  padding:10px 20px;
+}
+.countdown-container {
+  background-color: #fff;
+  padding: 20px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.countdown-container input,
+.countdown-container button {
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 10px;
+}
+#timer {
+  font-size: 20px;
+  color: #333;
+}
+.todo-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.todo-container input {
+  font-size: 16px;
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+}
+.todo-container button {
+  font-size: 16px;
+  padding: 8px 12px;
+  background-color: #5284f0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.todo-container button:hover {
+  background-color: #4069c8;
+}
+.todo-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+.todo-container li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-container li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.todo-container li button:hover {
+  background-color: #d32f2f;
+}
