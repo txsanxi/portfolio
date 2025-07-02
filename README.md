@@ -1,10 +1,6 @@
-# My Portfolio Website
+# Untitled
 
-This is a simple self-introduction site built with HTML, CSS, and JavaScript.  
-It includes:
-- A countdown timer
-- A timeline showing my progress
-- A to-do list section
-- Responsive design using media queries
+A Pen created on CodePen.
 
-This site is part of my transition from food service to IT.
+Original URL: [https://codepen.io/nseyltpw-the-animator/pen/QwwPLEP](https://codepen.io/nseyltpw-the-animator/pen/QwwPLEP).
+
